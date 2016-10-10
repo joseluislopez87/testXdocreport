@@ -8,30 +8,30 @@
 	<packaging>jar</packaging>
 	<!-- Start Converter dependencies -->
 	<dependencies>
-		<dependency>
-			<groupId>fr.opensagres.xdocreport</groupId>
-			<artifactId>fr.opensagres.xdocreport.document</artifactId>
-			<version>1.0.6</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>fr.opensagres.xdocreport</groupId> -->
+<!-- 			<artifactId>fr.opensagres.xdocreport.document</artifactId> -->
+<!-- 			<version>1.0.5</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.docx</artifactId>
-			<version>1.0.6</version>
+			<version>1.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.template.velocity</artifactId>
-			<version>1.0.6</version>
+			<version>1.0.5</version>
 		</dependency>
-		<dependency>
-			<groupId>fr.opensagres.xdocreport</groupId>
-			<artifactId>fr.opensagres.xdocreport.template</artifactId>
-			<version>1.0.6</version>
-		</dependency>
+<!-- 		<dependency> -->
+<!-- 			<groupId>fr.opensagres.xdocreport</groupId> -->
+<!-- 			<artifactId>fr.opensagres.xdocreport.template</artifactId> -->
+<!-- 			<version>1.0.5</version> -->
+<!-- 		</dependency> -->
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.converter.docx.xwpf</artifactId>
-			<version>1.0.6</version>
+			<version>1.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>oro</groupId>
@@ -81,7 +81,7 @@
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.converter.odt.odfdom</artifactId>
-			<version>1.0.6</version>
+			<version>1.0.5</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.poi</groupId>
@@ -112,6 +112,12 @@
 			<groupId>org.glassfish.jaxb</groupId>
 			<artifactId>jaxb-core</artifactId>
 			<version>2.2.11</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+			<scope>test</scope>
 		</dependency>
 		<!-- End Converter dependencies -->
 	</dependencies>
